@@ -1,0 +1,68 @@
+.box{
+    background: white;
+    width: 76vw;
+    height: 2px;
+    margin-top: 60px  ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.vertical{
+    background: white;
+    width: 2px;
+    height: 94px;
+    margin:  0 100px;
+    
+}
+.img-top{
+    left: -9px;
+    top: -23px;
+    width: 23px;
+    position: relative;
+
+}
+.vertical-text{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.lines{
+    position: relative;
+    top: 120px;
+    width: 150px;
+    font-size: 9px;
+    color: gray;
+
+}
+.buttons{
+    padding-top: 10px;
+}
+.click1{
+    color: white;
+    background: #3c3ca0;
+    border: 2px solid white;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.click2{
+    border: 2px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px;
+
+}
+.click1:hover{
+    font-size: 25px;
+}
+.below{
+    padding: 15px;
+    background-color: #161624;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.table ul{
+    list-style: none;
+}
